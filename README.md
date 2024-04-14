@@ -15,18 +15,26 @@ Stâlpul 8: Semafor pentru mașinile ce vin din direcția sud.
 Sistemul poate fi controlat prin trimiterea de caractere pe monitorul serial din Arduino IDE, având următoarele stări activate:
 
 Starea 1 (caracterul 'N'): Modul normal.
+
 Starea 2 (caracterul 'B'): Modul intermitent (blinking).
+
 Starea 3 (caracterul 'D'): Modul de diagnoză.
+
+
+
 Utilizare
 Pentru a controla sistemul, urmați instrucțiunile de mai jos:
 
 Starea 1 (Normal)
 Trimiterea caracterului 'N' pe monitorul serial activează modul normal.
 În acest mod, toate semafoarele funcționează conform programării.
+
 Starea 2 (Blinking)
 Trimiterea caracterului 'B' pe monitorul serial activează modul intermitent.
 În acest mod, toate semafoarele au culoarea galbenă intermitentă, cu o latență de 1 secundă aprins și 1 secundă stins.
+
 Starea 3 (Diagnoză)
+
 Trimiterea caracterului 'D' pe monitorul serial activează modul de diagnoză.
 În acest mod, toate semafoarele sunt oprite.
 Pentru a controla semafoarele în modul de diagnoză, se pot trimite următoarele comenzi:
