@@ -38,3 +38,6 @@ Pentru a controla semafoarele în modul de diagnoză, se pot trimite următoarel
 'X': Semafoarele trec prin toate culorile la fiecare 2 secunde.
 Implementare
 Codul implementat pentru acest proiect poate fi găsit în fișierul cod.ino.
+
+
+![Schema_circuit](https://github.com/Linu03/numerical_calculators_project/assets/163161692/fc6e410e-8ef8-4f3e-8256-894f3e78c5ad)
